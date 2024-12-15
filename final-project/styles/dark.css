@@ -1,0 +1,77 @@
+:root {
+  --md-sys-color-primary: rgb(170 199 255);
+  --md-sys-color-surface-tint: rgb(170 199 255);
+  --md-sys-color-on-primary: rgb(10 48 95);
+  --md-sys-color-primary-container: rgb(40 71 119);
+  --md-sys-color-on-primary-container: rgb(214 227 255);
+  --md-sys-color-secondary: rgb(190 198 220);
+  --md-sys-color-on-secondary: rgb(40 49 65);
+  --md-sys-color-secondary-container: rgb(62 71 89);
+  --md-sys-color-on-secondary-container: rgb(218 226 249);
+  --md-sys-color-tertiary: rgb(221 188 224);
+  --md-sys-color-on-tertiary: rgb(63 40 68);
+  --md-sys-color-tertiary-container: rgb(87 62 92);
+  --md-sys-color-on-tertiary-container: rgb(250 216 253);
+  --md-sys-color-error: rgb(255 180 171);
+  --md-sys-color-on-error: rgb(105 0 5);
+  --md-sys-color-error-container: rgb(147 0 10);
+  --md-sys-color-on-error-container: rgb(255 218 214);
+  --md-sys-color-background: rgb(17 19 24);
+  --md-sys-color-on-background: rgb(226 226 233);
+  --md-sys-color-surface: rgb(23 19 11);
+  --md-sys-color-on-surface: rgb(236 225 212);
+  --md-sys-color-surface-variant: rgb(68 71 78);
+  --md-sys-color-on-surface-variant: rgb(196 198 208);
+  --md-sys-color-outline: rgb(142 144 153);
+  --md-sys-color-outline-variant: rgb(68 71 78);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(236 225 212);
+  --md-sys-color-inverse-on-surface: rgb(53 48 39);
+  --md-sys-color-inverse-primary: rgb(65 95 145);
+  --md-sys-color-primary-fixed: rgb(214 227 255);
+  --md-sys-color-on-primary-fixed: rgb(0 27 62);
+  --md-sys-color-primary-fixed-dim: rgb(170 199 255);
+  --md-sys-color-on-primary-fixed-variant: rgb(40 71 119);
+  --md-sys-color-secondary-fixed: rgb(218 226 249);
+  --md-sys-color-on-secondary-fixed: rgb(19 28 43);
+  --md-sys-color-secondary-fixed-dim: rgb(190 198 220);
+  --md-sys-color-on-secondary-fixed-variant: rgb(62 71 89);
+  --md-sys-color-tertiary-fixed: rgb(250 216 253);
+  --md-sys-color-on-tertiary-fixed: rgb(40 19 46);
+  --md-sys-color-tertiary-fixed-dim: rgb(221 188 224);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(87 62 92);
+  --md-sys-color-surface-dim: rgb(23 19 11);
+  --md-sys-color-surface-bright: rgb(62 56 47);
+  --md-sys-color-surface-container-lowest: rgb(18 14 7);
+  --md-sys-color-surface-container-low: rgb(32 27 19);
+  --md-sys-color-surface-container: rgb(36 31 23);
+  --md-sys-color-surface-container-high: rgb(47 41 33);
+  --md-sys-color-surface-container-highest: rgb(58 52 43);
+}
+
+
+body {
+  /*font-family: ABeeZee, sans-serif;*/
+  background-color: var(--md-sys-color-surface);
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--md-sys-color-primary);
+}
+
+p, li, label {
+  color: var(--md-sys-color-on-surface);
+}
+
+@import url(https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Funnel+Display:wght@300..800&display=swap);
+
+:root {
+  --md-ref-typeface-brand: 'ABeeZee';
+  --md-ref-typeface-plain: system-ui;
+}
+
+/*
+http://material-foundation.github.io?primary=%23769CDF&neutral=%23FCB800&bodyFont=Farro&displayFont=ABeeZee&colorMatch=false
+*/
